@@ -34,6 +34,7 @@ hyprpicker                                             # color picker
 slurp                                                  # region select for screenshot/screenshare
 swappy                                                 # screenshot editor
 cliphist                                               # clipboard manager
+btop                                                   # monitor app
 
 # --------------------------------------------------- // Dependencies
 polkit-gnome                                           # authentication agent
@@ -48,6 +49,7 @@ ffmpegthumbs                                           # for dolphin video thumb
 kde-cli-tools                                          # for dolphin file type defaults
 kservice5                                              # for "open with" menu in dolphin
 libnotify                                              # for notifications
+swayidle
 
 # --------------------------------------------------- // Theming
 nwg-look                                               # gtk configuration tool
@@ -59,7 +61,7 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
+firefox-developer-edition                                                # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
@@ -73,7 +75,7 @@ zsh-theme-powerlevel10k|zsh oh-my-zsh-git              # theme for zsh
 lsd|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 neofetch                                               # fetch tool
-pokemon-colorscripts-git|zsh                           # display pokemon sprites
+pokemon-colorscripts-git                           # display pokemon sprites
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde

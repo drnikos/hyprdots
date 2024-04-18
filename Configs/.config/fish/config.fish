@@ -2,6 +2,9 @@ set -g fish_greeting
 
 if status is-interactive
     starship init fish | source
+
+    # Display Pokemon
+    pokemon-colorscripts --no-title -r 1,3,6
 end
 
 # List Directory
@@ -10,6 +13,12 @@ alias l="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
+
+alias inget="paru -S"
+alias sysup="paru -Syu"
+alias gc="git clone"
+alias gp="git pull"
+
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
@@ -23,3 +32,4 @@ abbr mkdir 'mkdir -p'
 
 # Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
 alias ssh='kitten ssh'
+fish_add_path /home/wasp/.spicetify

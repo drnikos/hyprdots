@@ -9,6 +9,8 @@
     "security.workspace.trust.enabled": false,
     "editor.minimap.side": "left",
     "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
     "extensions.autoUpdate": false,
     "workbench.statusBar.visible": false,
     "terminal.external.linuxExec": "kitty",
