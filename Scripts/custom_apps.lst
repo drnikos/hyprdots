@@ -22,11 +22,11 @@ spicetify-cli                                          # cli to customize spotif
 
 # --------------------------------------------------- // Apps
 # neovim                                               # vim based text editor
-discord
+vesktop
 geogebra
 kalzium
 heroic-games-launcher-bin
-tor-browser-bin
+#tor-browser-bin
 gwenview
 okular
 vlc
