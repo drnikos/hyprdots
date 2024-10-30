@@ -32,3 +32,4 @@ abbr mkdir 'mkdir -p'
 
 
 fish_add_path /home/wasp/.spicetify
+alias ntuapclab='luit -encoding ISO-8859-7 ssh placeholder@novice.softlab.ntua.gr'
